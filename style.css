@@ -34,8 +34,8 @@ body {
 
 .card {
       border: 1px solid black;
-      height: 35rem;
-      width: 25rem;
+      height: 28rem;
+      width: 20rem;
       border-radius: 30px;
 
 }
@@ -53,6 +53,8 @@ body {
       background: rgb(68, 51, 241);
       background: linear-gradient(0deg, rgba(68, 51, 241, 1) 5%, rgba(103, 67, 255, 1) 62%);
       color: #FDFEFF;
+      z-index: 1;
+
 }
 
 .card-left p {
@@ -62,7 +64,11 @@ body {
 
 .card-left h4 {
       font-size: 1.4rem;
-      opacity: 0.7;
+      opacity: 0.6;
+}
+
+.card-left h3 {
+      font-size: 1.5rem;
 }
 
 .points-total-circle {
@@ -84,7 +90,14 @@ body {
 .points-total-circle div {
       width: 5rem;
       text-align: center;
-      opacity: 0.7
+      opacity: 0.5
+}
+
+.left-lower-text {
+      opacity: 0.7;
+      text-align: center;
+      margin-top: -10px;
+      width: 14rem !important;
 }
 
 
