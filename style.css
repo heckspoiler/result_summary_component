@@ -13,11 +13,65 @@ body {
       height: 100vh;
       justify-content: center;
       align-items: center;
+      font-family: Arial, Helvetica, sans-serif;
 }
 
 /* component styling */
 
 /* card section styling */
+
+.cards-container {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.card {
+      border: 1px solid black;
+      height: 35rem;
+      width: 25rem;
+      border-radius: 30px;
+
+}
+
+
+
+
+/* card left styling */
+
+.card-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      background: rgb(68, 51, 241);
+      background: linear-gradient(0deg, rgba(68, 51, 241, 1) 5%, rgba(103, 67, 255, 1) 79%);
+      color: #FDFEFF;
+}
+
+.card-left p {
+      width: 15rem;
+}
+
+.card-left h4 {
+      font-size: 1.4rem;
+      opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ul {
       list-style-type: none;
