@@ -196,3 +196,15 @@ button:hover {
       cursor: pointer;
       background: linear-gradient(0deg, rgba(68, 51, 241, 1) 5%, rgba(103, 67, 255, 1) 62%);
 }
+
+/* responsivenes */
+
+@media only screen and (max-width: 904px) {
+
+      .cards-container {
+
+            flex-direction: column;
+            margin-top: 28rem;
+
+      }
+}
