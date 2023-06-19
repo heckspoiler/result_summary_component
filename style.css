@@ -30,10 +30,12 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+      box-shadow: 0 5px 43px rgba(71, 57, 108, 0.2);
+      border-radius: 30px;
 }
 
 .card {
-      border: 1px solid black;
+
       height: 28rem;
       width: 20rem;
       border-radius: 30px;
@@ -53,7 +55,6 @@ body {
       background: rgb(68, 51, 241);
       background: linear-gradient(0deg, rgba(68, 51, 241, 1) 5%, rgba(103, 67, 255, 1) 62%);
       color: #FDFEFF;
-      z-index: 1;
 
 }
 
@@ -103,17 +104,95 @@ body {
 
 
 
+/* Right Card Styling */
 
 
 
+.class-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+}
 
+.class-right h4 {
+      margin-left: -12rem;
+      font-size: 1.2rem;
+      margin-top: -10px;
+}
 
+.card-right-list {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+}
 
+.skillresult {
+      display: flex;
+      justify-content: space-between;
+      width: 16rem;
+      height: 3rem;
+      padding: 0.5rem;
+      border-radius: 10px;
+      align-items: center;
+}
 
+.grey-text {
+      color: grey;
+}
 
+.grey-text span {
+      color: black;
+      font-weight: 700;
+}
+
+.logo-description {
+      display: flex;
+      gap: 15px;
+}
 
 
 
 ul {
       list-style-type: none;
+}
+
+/* individual subsections */
+
+.reaction {
+      color: hsl(0, 100%, 67%);
+      background-color: hsla(0, 100%, 67%, 10%)
+}
+
+.memory {
+      color: hsl(39, 100%, 56%);
+      background-color: hsla(39, 100%, 56%, 10%)
+}
+
+.verbal {
+      color: hsl(166, 100%, 37%);
+      background-color: hsla(166, 100%, 37%, 10%)
+}
+
+.visual {
+      color: hsl(234, 85%, 45%);
+      background-color: hsla(234, 85%, 45%, 10%);
+}
+
+button {
+      color: white;
+      background: rgb(48, 59, 89);
+      background: linear-gradient(0deg, rgba(48, 59, 89, 1) 0%, rgba(48, 59, 89, 1) 100%);
+      border: none;
+      height: 3rem;
+      width: 16rem;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      transition: all 2s ease-in;
+
+}
+
+button:hover {
+      cursor: pointer;
+      background: linear-gradient(0deg, rgba(68, 51, 241, 1) 5%, rgba(103, 67, 255, 1) 62%);
 }
